@@ -1,11 +1,11 @@
-package com.company;
+package com.java.algorithms;
 /* Problem to solve: to print all the numbers from 1 to 100,
 exception the multiples of 3, when we print "Fizz",
 multiples of 5, when we print "Buzz"
 and multiples of 15, when we print "FizzBuzz"
  */
 // defining public class
-public class Main {
+public class FizzBuzz {
 
     public static void main(String[] args) {
         //Starting the loop to cross from 1 to 100
