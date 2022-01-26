@@ -10,10 +10,15 @@ public class Powers {
         int a = scan.nextInt();
         System.out.print("Please enter second number: ");
         int b = scan.nextInt();
-        //System.out.print("a empowered by b is: " + powerFunction);
+        System.out.print("a empowered by b is: " + powerFunction(a,b));
 
     }
-    public long powerFunction ( int a, int b){
-            return 1;
+    public static long powerFunction ( int a, int b){
+            long p = 1;
+            for(int i=1; i<=b; i++){
+               p = p*a ;
+           }
+
+            return p;
     }
 }
